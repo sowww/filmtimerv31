@@ -1,13 +1,15 @@
 # Film Timer v3.1
-Моё главное приложение под андроид, писалось для рабочих целей, подразумевалось как небольшое, так что комментариев в коде практически нет, хотя стоило бы :)
+My best application for android. I created it to help me in my work.
 
-## Интерфейс
-![До запуска](https://i.imgur.com/HbpcOuc.png?1)
-![Запущенный](https://i.imgur.com/qw8PycH.png?1)
-![Запущенный](https://i.imgur.com/gLBSq0U.png?1)
+## Screenshots
+![Before start](https://i.imgur.com/HbpcOuc.png?1)
+![Working](https://i.imgur.com/qw8PycH.png?1)
+![Notification](https://i.imgur.com/gLBSq0U.png?1)
 
-## Управление
-Запускается и останавливается таймер исключительно кнопками громкости.
+## Controls
+The application is controlled by volume buttons:
+* __Volume up__ - start timer
+* __Volume down__ - stop timer
 
-## Основной принцип
-После включения таймера запускается служба, которая берет на себя пересчет таймера и уведомления. Без службы приложение в фоне убивалось и таймер не отслеживался.
+## Working principle
+Enabling the timer starts the service. This service controls the work of the timer and notifications. It's the only proper way to work in background.

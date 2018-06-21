@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myColor">#FF71C6E5</color>
+    <color name="mySpecialTextColor">#4ff532</color>
+    <color name="mySpecialErrorColor">#f53932</color>
+    <color name="mySpecialDarkColor">#156907</color>
+    <color name="myTextColor">#efefef</color>
+
+</resources>

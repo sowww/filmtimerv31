@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Film Timer v3.1</string>
+    <string name="separator">:</string>
+    <string name="start">Старт</string>
+</resources>

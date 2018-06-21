@@ -4,6 +4,8 @@ import java.util.Calendar;
 import java.util.Locale;
 
 public class MyTime {
+    
+    private static final int SEC_IN_DAY = 86400;
 
     private int h;
     private int m;
@@ -70,14 +72,14 @@ public class MyTime {
 
     int toSec() {
         int daySec = 0;
-        if (nextDay) { daySec += 86400; }
+        if (nextDay) { daySec += SEC_IN_DAY; }
         return h*3600 + m*60 + s + daySec;
     }
 
     void setFromSec(int sec) {
         s = sec;
-        if ( s >= 86400 ) {
-            s -= 86400;
+        if ( s >= SEC_IN_DAY ) {
+            s -= SEC_IN_DAY;
             nextDay = true;
         } else { nextDay = false; }
         h = s / 3600;

@@ -252,7 +252,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
 
 
     //----------------------------------------
-    // Начинаем объявления переменных
+    // Declaration of variables
     //----------------------------------------
 
     final static String STATE_FILMLENGTH = "StateFilmLength";
